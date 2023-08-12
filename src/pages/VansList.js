@@ -30,6 +30,7 @@ const VansList = () => {
 
   return (
     <div className="van-list-container">
+      <h1>Explore our Van options</h1>
       <div className="van-list">
         {vanElements}
       </div>
