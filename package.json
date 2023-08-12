@@ -1,0 +1,24 @@
+{
+  "name": "vans-application",
+  "version": "1.0.0",
+  "description": "life in vans",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "test",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "rjcb",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
+    "sass": "^1.65.1"
+  }
+}
