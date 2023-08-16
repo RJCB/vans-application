@@ -4,6 +4,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import VansList from './pages/VansList';
+import VanDetail from './pages/VanDetail';
 
 import "./server"
 
@@ -15,6 +16,7 @@ const App = () => {
                 <Route path={"/"} element={<Home />} />
                 <Route path={"/about"} element={<About />} />
                 <Route path={"/vans"} element={<VansList />} />
+                <Route path={"/vans/:id"} element={<VanDetail />} />
             </Routes>
         </BrowserRouter>
     )
