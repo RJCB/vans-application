@@ -3,9 +3,6 @@ import logog from '../images/logog.png';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-    // const handleClick = () => {
-
-    // }
     return (
         <header>
             <div className="nav-logo">
@@ -15,6 +12,7 @@ const Navbar = () => {
             </div>
             <nav className="navbar">
                 <div className="nav-links">
+                    <NavLink to="/host">Host</NavLink>
                     <NavLink to="/about">About</NavLink>
                     <NavLink to="/vans">Vans</NavLink>
                 </div>

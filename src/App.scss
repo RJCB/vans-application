@@ -40,17 +40,20 @@ header {
     .nav-links {
         position: relative;
         right: 26px;
+    }
+}
 
-        a {
-            font-size: 16px;
-            color: #4d4d4d;
-            padding: 25px;
+.nav-links {
 
-            &.active,
-            &:hover {
-                text-decoration: underline;
-                color: #161616;
-            }
+    a {
+        font-size: 16px;
+        color: #4d4d4d;
+        padding: 25px;
+
+        &.active,
+        &:hover {
+            text-decoration: underline;
+            color: #161616;
         }
     }
 }
@@ -316,4 +319,22 @@ i[class*='van-type-'] {
     background-color: #FF8C38;
     color: white;
     font-size: 1.125rem;
+}
+
+//Host
+.host-nav {
+    display: flex;
+}
+
+.host-nav a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-weight: 500;
+    padding: 5px 20px;
+}
+
+.host-nav a:hover {
+    color: #161616;
+    text-decoration: underline;
+    font-weight: 600;
 }
