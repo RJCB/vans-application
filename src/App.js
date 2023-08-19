@@ -1,7 +1,7 @@
 import './App.scss';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-//Routes
+//Components
 import Layout from './components/Layout';
 import HostLayout from './components/HostLayout';
 
@@ -14,6 +14,9 @@ import VanDetail from './pages/VanDetail';
 import Dashboard from './pages/host/Dashboard';
 import Income from './pages/host/Income';
 import Reviews from './pages/host/Reviews';
+
+import HostVans from './components/HostVans';
+import HostVanDetail from './components/HostVanDetail';
 
 import "./server"
 
@@ -30,6 +33,8 @@ const App = () => {
                         <Route index element={<Dashboard />} />
                         <Route path={"income"} element={<Income />} />
                         <Route path={"reviews"} element={<Reviews />} />
+                        <Route path={"vans"} element={<HostVans />} />
+                        <Route path={"vans/:id"} element={<HostVanDetail />} />
                     </Route>
                 </Route>
             </Routes>
