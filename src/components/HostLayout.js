@@ -7,9 +7,9 @@ const HostLayout = () => {
         <>
             <nav className="host-nav nav-links">
                 <NavLink to="/host" end>Dashboard</NavLink>
-                <NavLink to="/host/income">Income</NavLink>
-                <NavLink to="/host/reviews">Reviews</NavLink>
-                <NavLink to="/host/vans">Vans</NavLink>
+                <NavLink to="income">Income</NavLink>
+                <NavLink to="reviews">Reviews</NavLink>
+                <NavLink to="vans">Vans</NavLink>
             </nav>
             <Outlet />
         </>
